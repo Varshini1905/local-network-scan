@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nmap Scan Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nmap Scan Report for 192.168.244.1</h1>
+    <p><strong>Scan Time:</strong> 2025-05-26 15:38 +0530</p>
+    <p><strong>Host Status:</strong> Up (0.0015s latency)</p>
+    <p><strong>Closed Ports:</strong> 989 TCP ports (reset)</p>
+
+    <table>
+        <tr>
+            <th>Port</th>
+            <th>State</th>
+            <th>Service</th>
+        </tr>
+        <tr><td>135/tcp</td><td>open</td><td>msrpc</td></tr>
+        <tr><td>139/tcp</td><td>open</td><td>netbios-ssn</td></tr>
+        <tr><td>445/tcp</td><td>open</td><td>microsoft-ds</td></tr>
+        <tr><td>902/tcp</td><td>open</td><td>iss-realsecure</td></tr>
+        <tr><td>912/tcp</td><td>open</td><td>apex-mesh</td></tr>
+        <tr><td>1521/tcp</td><td>open</td><td>oracle</td></tr>
+        <tr><td>5432/tcp</td><td>open</td><td>postgresql</td></tr>
+        <tr><td>6646/tcp</td><td>open</td><td>unknown</td></tr>
+        <tr><td>7070/tcp</td><td>open</td><td>realserver</td></tr>
+        <tr><td>8081/tcp</td><td>open</td><td>blackice-icecap</td></tr>
+        <tr><td>55555/tcp</td><td>open</td><td>unknown</td></tr>
+    </table>
+
+    <p class="footer">Nmap done: 1 IP address (1 host up) scanned in 1.18 seconds</p>
+</body>
+</html>
